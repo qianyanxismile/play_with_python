@@ -12,7 +12,7 @@ def str_count_optimization(d):
     """str_count优化版本，使用计数方式统计"""
     count = 0
     for v in d.values():
-        for i n v:
+        for i in v:
             if i != '0':
                 count += 1
     return count
