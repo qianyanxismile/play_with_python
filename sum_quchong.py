@@ -21,6 +21,18 @@ class Solution(object):
                         return re
                 else:
                     pass
+"""
+whle start < end:
+    if list[start] + list[end] == target:
+        return [start, end]
+    elif list[start] + list[end] > target:
+        end -= 1
+    else:
+        start += 1
+return []
+
+
+"""
 
                     
 if __name__ == "__main__":
