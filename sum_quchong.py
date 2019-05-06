@@ -1,4 +1,4 @@
-#coding:utf-8
+# coding:utf-8
 
 class Solution(object):
     def twoSum(self, nums, target):
@@ -37,6 +37,7 @@ return []
                     
 if __name__ == "__main__":
 
-    nums = [2,7,11,15]
+    # nums = [2,7,11,15]
+    nums = [1,2,2,3,4,7]
     target = 9
-    print Solution().twoSum(nums,target)
+    print(Solution().twoSum(nums,target))

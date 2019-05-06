@@ -71,6 +71,6 @@ if __name__ == '__main__':
 
     get_head_img(friends)
     create_img()
-    print "结束"
+    print("结束")
 
     #itchat.logout()

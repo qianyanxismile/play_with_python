@@ -3,6 +3,9 @@ from collections import deque
 
 
 def search(lines, pattern, history=3):
+    """
+    Search pattern in lines, keep history length at fixed length.
+    """
     historys = deque(maxlen=history)
 
     for line in lines:
